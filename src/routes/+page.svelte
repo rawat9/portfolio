@@ -1,5 +1,5 @@
 <script>
-  import { Intro, About, Projects, Skills, Experience, Contact } from '$lib/components';
+  import { Intro, About, Projects, Skills, Experience, Contact, Footer } from '$lib/components';
 </script>
 
 <main class="flex flex-col items-center px-4 pt-28 sm:pt-36">
@@ -9,4 +9,5 @@
   <Skills />
   <Experience />
   <Contact />
+  <Footer />
 </main>
