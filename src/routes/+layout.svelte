@@ -1,6 +1,5 @@
 <script>
-  import { Navbar } from '$lib/components';
-  import ThemeSwitch from '$lib/components/ThemeSwitch.svelte';
+  import { Navbar, ThemeSwitch } from '$lib/components';
   import '../app.css';
 </script>
 

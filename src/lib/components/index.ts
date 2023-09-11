@@ -6,3 +6,4 @@ export { default as Skills } from './Skills.svelte';
 export { default as Intro } from './Intro.svelte';
 export { default as Projects } from './Projects.svelte';
 export { default as Footer } from './Footer.svelte';
+export { default as ThemeSwitch } from './ThemeSwitch.svelte';
