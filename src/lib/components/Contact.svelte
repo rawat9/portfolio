@@ -12,14 +12,24 @@
   </p>
 
   <form class="mt-10 flex flex-col dark:text-white">
-    <input
-      class="h-14 px-4 rounded-lg borderBlack dark:bg-slate-800 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
-      name="senderEmail"
-      type="email"
-      required
-      maxLength={100}
-      placeholder="Your email"
-    />
+    <div class="grid grid-cols-2 gap-2">
+      <input
+        class="h-14 px-4 rounded-lg borderBlack dark:bg-slate-800 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+        name="senderName"
+        type="text"
+        required
+        maxLength={50}
+        placeholder="Your name"
+      />
+      <input
+        class="h-14 px-4 rounded-lg borderBlack dark:bg-slate-800 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+        name="senderEmail"
+        type="email"
+        required
+        maxLength={100}
+        placeholder="Your email"
+      />
+    </div>
     <textarea
       class="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-slate-800 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
       name="message"

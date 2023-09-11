@@ -1,11 +1,21 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
+  "description": "Full-stack developer portfolio",
   "private": true,
   "author": {
     "name": "Anurag Rawat",
     "email": "anurag.rawat0201@gmail.com"
   },
+  "keywords": [
+    "portfolio",
+    "full-stack",
+    "svelte",
+    "sveltekit",
+    "typescript",
+    "tailwindcss",
+    "vite"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/rawat9/portfolio"

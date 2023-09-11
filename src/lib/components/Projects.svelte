@@ -5,7 +5,7 @@
 <section id="projects" class="scroll-mt-28 mb-28">
   <h2 class="text-3xl font-medium capitalize mb-8 text-center">Projects</h2>
   <div>
-    {#each projects as project, index}
+    {#each projects as project}
       <div class="group mb-3 sm:mb-8 last:mb-0">
         <section
           class="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
