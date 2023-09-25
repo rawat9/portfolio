@@ -1,45 +1,26 @@
 <script>
   import { experiences } from '$lib/constants';
-  import {
-    Timeline,
-    TimelineConnector,
-    TimelineContent,
-    TimelineItem,
-    TimelineDot,
-    TimelineSeparator,
-    TimelineOppositeContent
-  } from 'svelte-vertical-timeline';
   import Icon from '@iconify/svelte';
-  import { getContext } from 'svelte';
-
-  let theme = getContext('theme');
 </script>
 
-<section id="experience" class="scroll-mt-28 mb-28 sm:mb-40">
+<section id="experience" class="scroll-mt-28 mb-28 sm:mb-40 max-w-[45rem] leading-8">
   <h2 class="text-3xl font-medium capitalize mb-8 text-center">Experience</h2>
-  <Timeline position="alternate">
+  <ol class="relative border-l border-gray-200 dark:border-gray-700 mb-3">
     {#each experiences as exp}
-      <TimelineItem>
-        <TimelineOppositeContent slot="opposite-content">
-          <p>{exp.date}</p>
-        </TimelineOppositeContent>
-        <TimelineSeparator>
-          <TimelineDot style="background: white; font-size: 1.5rem; border: none;">
-            <Icon icon="mdi-light:home" />
-          </TimelineDot>
-          <TimelineConnector />
-        </TimelineSeparator>
-        <TimelineContent
-          style="background: {theme === 'light' ? '#f3f4f6' : 'rgba(255, 255, 255, 0.05)'}; 
-            box-shadow: none; border: 1px solid rgba(0, 0, 0, 0.05); padding: 1.3rem 2rem;"
+      <li class="mb-10 ml-9">
+        <span
+          class="absolute flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full -left-4 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
         >
-          <h3 class="font-semibold capitalize">{exp.title}</h3>
-          <p class="font-normal !mt-0">{exp.location}</p>
-          <p class="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-            {exp.description}
-          </p>
-        </TimelineContent>
-      </TimelineItem>
+          <Icon icon={exp.icon} class="text-xl" />
+        </span>
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          {exp.title}
+        </h3>
+        <small class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+          {exp.company}, {exp.location} | {exp.date}</small
+        >
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{exp.description}</p>
+      </li>
     {/each}
-  </Timeline>
+  </ol>
 </section>
