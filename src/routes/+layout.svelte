@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-  <title>Portfolio</title>
-  <meta name="description" content="Full-stack web developer Portfolio" />
+  <title>Anurag Rawat | Portfolio</title>
+  <meta name="description" content="Software Engineer Portfolio" />
 </svelte:head>
 
 <div

@@ -1,36 +1,48 @@
 <script>
-  import { typewriter } from '$lib/transition/typewriter';
+  import Image from '$lib/assets/Image.png';
+  import Typewriter from 'svelte-typewriter';
   import Icon from '@iconify/svelte';
+  import { onMount } from 'svelte';
+
+  let isVisible = false;
+
+  onMount(() => {
+    isVisible = true;
+  });
 </script>
 
-<section id="home" class="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+<section id="home" class="mb-28 pt-32 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
   <div class="flex items-center justify-center">
-    <div class="relative">
-      <img
-        src="https://avatars.githubusercontent.com/u/11367048?v=4"
-        alt="Anurag Rawat"
-        width="196"
-        height="196"
-        class="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-      />
-
-      <span class="absolute bottom-0 right-0 text-4xl"> 👋 </span>
-    </div>
+    <img
+      src={Image}
+      alt="Anurag Rawat"
+      class="h-32 w-32 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+    />
   </div>
 
-  <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl">
-    <span class="font-bold">Hello, I'm Anurag.</span> I'm a{' '}
-    <span class="font-bold">full-stack developer</span> with{' '}
-    <span class="font-bold">8 years</span> of experience. I enjoy building
-    <span class="italic">sites & apps</span>.
+  <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl">
+    <span class="font-semibold">I'm Anurag.</span>
+    <span class="font-light text-lg line-clamp-1">
+      Passionate software engineer. I love to build things for the web.
+    </span>
+    {#if isVisible}
+      <p class="font-light text-lg">
+        Interested in
+        <Typewriter cursor mode="loop">
+          <span class="font-mono">functional programming</span>
+          <span class="font-mono">full stack web dev</span>
+          <span class="font-mono">coffee</span>
+        </Typewriter>
+      </p>
+    {/if}
   </h1>
 
   <div class="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
     <a
       href="#contact"
-      class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:bg-gray-950 active:scale-105 transition"
+      class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950 transition"
     >
-      Contact me here
+      Get in touch
       <Icon
         icon="radix-icons:arrow-right"
         class="opacity-70 group-hover:translate-x-1 transition"
@@ -38,7 +50,7 @@
     </a>
 
     <a
-      class="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+      class="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
       href="/CV.pdf"
       download
     >

@@ -1,4 +1,12 @@
-<div class="bg-gray-200 my-24 h-16 w-1 rounded-full hidden sm:block dark:bg-opacity-20" />
+<script>
+  import Icon from '@iconify/svelte';
+</script>
+
+<div class="my-36 h-16 w-16 rounded-full hidden sm:block">
+  <a href="#about" class="rounded-full p-3 w-16 h-16">
+    <Icon icon="pepicons-print:arrow-down" class="text-5xl animate-bounce" />
+  </a>
+</div>
 
 <section id="about" class="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28">
   <h2 class="text-3xl font-medium capitalize mb-8 text-center">About me</h2>
