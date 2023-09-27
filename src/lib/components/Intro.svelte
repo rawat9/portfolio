@@ -3,6 +3,7 @@
   import Typewriter from 'svelte-typewriter';
   import Icon from '@iconify/svelte';
   import { onMount } from 'svelte';
+  import CV from '$lib/assets/CV.pdf';
 
   let isVisible = false;
 
@@ -52,7 +53,7 @@
 
     <a
       class="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
-      href="/_app/immutable/assets/CV.84524c1c.pdf"
+      href="https://www.anuragrawat.tech/_app/immutable/assets/CV.84524c1c.pdf"
       target="_blank"
       title="Anurag Rawat"
     >
