@@ -11,24 +11,16 @@
 <section id="about" class="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28">
   <h2 class="text-3xl font-medium capitalize mb-8 text-center">About me</h2>
   <p class="mb-3">
-    After graduating with a degree in{' '}
-    <span class="font-medium">Accounting</span>, I decided to pursue my passion for programming. I
-    enrolled in a coding bootcamp and learned{' '}
-    <span class="font-medium">full-stack web development</span>.{' '}
-    <span class="italic">My favorite part of programming</span> is the problem-solving aspect. I
-    <span class="underline">love</span>
-    the feeling of finally figuring out a solution to a problem. My core stack is{' '}
-    <span class="font-medium"> React, Next.js, Node.js, and MongoDB </span>
-    . I am also familiar with TypeScript and Prisma. I am always looking to learn new technologies. I
-    am currently looking for a{' '}
-    <span class="font-medium">full-time position</span> as a software developer.
+    Hey there! I'm Anurag, a software engineering undergrad excited about the dynamic world of
+    coding and technology. My journey into the realm of software development started with a passion
+    for problem-solving and a relentless curiosity to understand how things work.
   </p>
 
   <p>
-    <span class="italic">When I'm not coding</span>, I enjoy playing video games, watching movies,
-    and playing with my dog. I also enjoy{' '}
-    <span class="font-medium">learning new things</span>. I am currently learning about{' '}
-    <span class="font-medium">history and philosophy</span>. I'm also learning how to play the
-    guitar.
+    <span class="italic">When I'm not coding</span>, I enjoy listening to music. I also enjoy
+    <span class="font-medium">learning new things</span>. I am currently learning about
+    <span class="font-sans italic"
+      >Software Engineering management & functional programming paradigm</span
+    >
   </p>
 </section>

@@ -19,7 +19,11 @@
         <small class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
           {exp.company}, {exp.location} | {exp.date}</small
         >
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{exp.description}</p>
+        <ul class="list-disc">
+          {#each exp.description as desc}
+            <li class="text-sm font-normal text-gray-500 dark:text-gray-400">{desc}</li>
+          {/each}
+        </ul>
       </li>
     {/each}
   </ol>

@@ -1,5 +1,4 @@
 import corpcommentImg from '$lib/assets/corpcomment.png';
-import rmtdevImg from '$lib/assets/rmtdev.png';
 import wordanalyticsImg from '$lib/assets/wordanalytics.png';
 
 export const links = [
@@ -31,20 +30,13 @@ export const links = [
 
 export const experiences = [
   {
-    title: 'BEng (H) Software Engineering',
-    company: 'University of Greenwich',
-    location: 'London UK',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: 'fluent:hat-graduation-16-regular',
-    date: '2020 - present'
-  },
-  {
     title: 'Software Engineer Intern',
     company: 'GE Digital',
     location: 'Cambridge UK',
-    description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+    description: [
+      'Worked as part of the frontend team on a full-stack geospatial application using Angular, RxDB and NestJS',
+      'Setup and configured Storybook for reusable Angular components'
+    ],
     icon: 'fluent-mdl2:work',
     date: '2022 - 2023'
   },
@@ -52,8 +44,11 @@ export const experiences = [
     title: 'Coding Mentor',
     company: 'Code Ninjas',
     location: 'London UK',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+    description: [
+      'Taught kids how to code (fundamentals of programming), giving regular feedback to their parents about their performance and progress.',
+      'Maintain a fun learning environment.',
+      "Developed a dynamic website for tracking student's progress with an analytical dashboard using Django and PostgreSQL"
+    ],
     icon: 'fluent-mdl2:work',
     date: '2021 - 2022'
   }
@@ -66,13 +61,6 @@ export const projects = [
       'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
     tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
     imageUrl: corpcommentImg
-  },
-  {
-    title: 'rmtDev',
-    description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg
   },
   {
     title: 'Word Analytics',

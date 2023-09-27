@@ -28,10 +28,11 @@
     {#if isVisible}
       <p class="font-light text-lg">
         Interested in
-        <Typewriter cursor mode="loop">
+        <Typewriter mode="loop">
+          <span class="font-mono">software engineering</span>
           <span class="font-mono">functional programming</span>
           <span class="font-mono">full stack web dev</span>
-          <span class="font-mono">coffee</span>
+          <span class="font-mono">music 🎵</span>
         </Typewriter>
       </p>
     {/if}
@@ -52,9 +53,9 @@
     <a
       class="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
       href="/CV.pdf"
-      download
+      target="_blank"
     >
-      Download CV
+      View CV
       <Icon icon="radix-icons:download" class="opacity-60 group-hover:translate-y-1 transition" />
     </a>
 
