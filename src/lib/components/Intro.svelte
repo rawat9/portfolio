@@ -52,10 +52,11 @@
 
     <a
       class="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
-      href="/CV.pdf"
+      href="/_app/immutable/assets/CV.84524c1c.pdf"
       target="_blank"
+      title="Anurag Rawat"
     >
-      View CV
+      Download CV
       <Icon icon="radix-icons:download" class="opacity-60 group-hover:translate-y-1 transition" />
     </a>
 
