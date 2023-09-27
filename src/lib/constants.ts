@@ -35,6 +35,7 @@ export const experiences = [
     location: 'Cambridge UK',
     description: [
       'Worked as part of the frontend team on a full-stack geospatial application using Angular, RxDB and NestJS',
+      'Collaborated with a developer to implement a data-access abstraction layer using the Repository Design Pattern',
       'Setup and configured Storybook for reusable Angular components'
     ],
     icon: 'fluent-mdl2:work',
