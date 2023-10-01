@@ -16,12 +16,12 @@
         <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
           {exp.title}
         </h3>
-        <small class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        <small class="block mb-4 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
           {exp.company}, {exp.location} | {exp.date}</small
         >
         <ul class="list-disc">
           {#each exp.description as desc}
-            <li class="text-sm font-normal text-gray-500 dark:text-gray-400">{desc}</li>
+            <li class="text-sm mt-2 font-normal text-gray-500 dark:text-gray-400">{@html desc}</li>
           {/each}
         </ul>
       </li>

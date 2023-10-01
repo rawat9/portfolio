@@ -3,7 +3,6 @@
   import Typewriter from 'svelte-typewriter';
   import Icon from '@iconify/svelte';
   import { onMount } from 'svelte';
-  import CV from '$lib/assets/CV.pdf';
 
   let isVisible = false;
 
@@ -22,10 +21,10 @@
   </div>
 
   <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl">
-    <span class="font-semibold">I'm Anurag.</span>
-    <span class="font-light text-lg line-clamp-1">
+    <p class="font-semibold">I'm Anurag.</p>
+    <p class="font-light text-lg">
       Passionate software engineer. I love to build things for the web.
-    </span>
+    </p>
     {#if isVisible}
       <p class="font-light text-lg">
         Interested in
@@ -42,7 +41,7 @@
   <div class="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
     <a
       href="#contact"
-      class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950 transition"
+      class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950"
     >
       Get in touch
       <Icon
@@ -52,7 +51,7 @@
     </a>
 
     <a
-      class="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
+      class="group bg-white px-7 py-3 flex items-center hover:shadow-md gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
       href="https://www.anuragrawat.tech/_app/immutable/assets/CV.84524c1c.pdf"
       target="_blank"
       title="Anurag Rawat"
@@ -62,19 +61,21 @@
     </a>
 
     <a
-      class="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+      class="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
       href="https://www.linkedin.com/in/anuragsrawat/"
       target="_blank"
       aria-label="Link to my LinkedIn Profile"
+      title="LinkedIn"
     >
       <Icon icon="cib:linkedin" />
     </a>
 
     <a
-      class="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+      class="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full hover:text-gray-950 cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
       href="https://github.com/rawat9"
       target="_blank"
       aria-label="Link to my GitHub Profile"
+      title="GitHub"
     >
       <Icon icon="cib:github" />
     </a>

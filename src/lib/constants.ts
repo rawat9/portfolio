@@ -1,5 +1,4 @@
-import corpcommentImg from '$lib/assets/corpcomment.png';
-import wordanalyticsImg from '$lib/assets/wordanalytics.png';
+import tsgeneric from '$lib/assets/ts.png';
 
 export const links = [
   {
@@ -35,7 +34,7 @@ export const experiences = [
     location: 'Cambridge UK',
     description: [
       'Worked as part of the frontend team on a full-stack geospatial application using Angular, RxDB and NestJS',
-      'Collaborated with a developer to implement a data-access abstraction layer using the Repository Design Pattern',
+      'Collaborated with a developer to implement a data-access abstraction layer using the <a class="underline underline-offset-4 font-semibold" target="_blank" href="https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#the-repository-pattern">Repository Design Pattern</a>',
       'Setup and configured Storybook for reusable Angular components'
     ],
     icon: 'fluent-mdl2:work',
@@ -57,18 +56,12 @@ export const experiences = [
 
 export const projects = [
   {
-    title: 'CorpComment',
+    title: 'TS Generics',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg
-  },
-  {
-    title: 'Word Analytics',
-    description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg
+      'Repository of type challenges to help me understand the concept of Generics in TypeScript.',
+    tags: ['TypeScript'],
+    link: 'https://rawat9.github.io/ts-generics/',
+    imageUrl: tsgeneric
   }
 ] as const;
 
@@ -83,16 +76,28 @@ export const skills = {
       icon: 'react'
     },
     {
-      title: 'RxJS',
-      icon: 'reactivex'
-    },
-    {
       title: 'Svelte',
       icon: 'svelte-icon'
     },
     {
+      title: 'RxJS',
+      icon: 'reactivex'
+    },
+    {
       title: 'NestJS',
       icon: 'nestjs'
+    },
+    {
+      title: 'Django',
+      icon: 'django-icon'
+    },
+    {
+      title: 'Playwright',
+      icon: 'playwright'
+    },
+    {
+      title: 'Testcafe',
+      icon: 'testcafe'
     },
     {
       title: 'Jest',
@@ -122,4 +127,4 @@ export const skills = {
       icon: 'java'
     }
   ]
-};
+} as const;

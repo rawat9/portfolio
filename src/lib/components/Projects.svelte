@@ -1,5 +1,6 @@
 <script>
   import { projects } from '$lib/constants';
+  import Icon from '@iconify/svelte';
 </script>
 
 <section id="projects" class="scroll-mt-28 mb-28">
@@ -13,7 +14,10 @@
           <div
             class="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]"
           >
-            <h3 class="text-2xl font-semibold">{project.title}</h3>
+            <div class="inline-flex items-center gap-3">
+              <h3 class="text-2xl font-semibold">{project.title}</h3>
+              <a href={project.link}><Icon icon="radix-icons:external-link" class="text-2xl" /></a>
+            </div>
             <p class="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
               {project.description}
             </p>
@@ -31,7 +35,7 @@
           <img
             src={project.imageUrl}
             alt="Project I worked on"
-            class="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+            class="absolute hidden sm:block top-0 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
                 transition
                 group-hover:scale-[1.04]
                 group-hover:-translate-x-3
