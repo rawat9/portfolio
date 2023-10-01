@@ -7,7 +7,7 @@
 
   <p class="text-gray-700 -mt-6 dark:text-white/80">
     Please contact me directly at
-    <a class="underline" href="mailto:example@gmail.com"> anurag.rawat0201@gmail.com </a>
+    <a class="underline" href="mailto:anurag.rawat0201@gmail.com"> anurag.rawat0201@gmail.com </a>
     or through this form.
   </p>
 
@@ -37,16 +37,17 @@
       required
       maxLength={5000}
     />
+    <button
+      type="submit"
+      class="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
+      on:click={() =>
+        alert('This form is not yet functional. Please use the email address provided above.')}
+    >
+      Submit
+      <Icon
+        icon="ion:paper-plane"
+        class="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1"
+      />
+    </button>
   </form>
-  <button
-    type="submit"
-    class="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
-    on:click={() => alert('This feature is not available yet.')}
-  >
-    Submit
-    <Icon
-      icon="ion:paper-plane"
-      class="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1"
-    />
-  </button>
 </section>
