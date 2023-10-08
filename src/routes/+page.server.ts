@@ -65,10 +65,15 @@ export const actions = {
         html: emailHtml
       };
 
-      transporter.sendMail(options, (err) => {
-        if (err) {
-          console.error(err);
-        }
+      await new Promise((resolve, reject) => {
+        transporter.sendMail(options, (err, info) => {
+          if (err) {
+            console.error(err);
+            reject(err);
+          } else {
+            resolve(info);
+          }
+        });
       });
 
       return {
