@@ -11,7 +11,7 @@
     or through this form.
   </p>
 
-  <form class="mt-10 flex flex-col dark:text-white">
+  <form class="mt-10 flex flex-col dark:text-white" method="post">
     <div class="grid grid-cols-2 gap-2">
       <input
         class="h-14 px-4 rounded-lg borderBlack dark:bg-slate-800 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
@@ -26,7 +26,7 @@
         name="senderEmail"
         type="email"
         required
-        maxLength={100}
+        maxLength={50}
         placeholder="Your email"
       />
     </div>
@@ -35,13 +35,11 @@
       name="message"
       placeholder="Your message"
       required
-      maxLength={5000}
+      maxLength={500}
     />
     <button
       type="submit"
       class="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all hover:bg-gray-950 active:scale-105 dark:bg-white dark:bg-opacity-10 disabled:scale-100 disabled:bg-opacity-65"
-      on:click={() =>
-        alert('This form is not yet functional. Please use the email address provided above.')}
     >
       Submit
       <Icon
