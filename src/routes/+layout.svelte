@@ -1,7 +1,5 @@
 <script>
-  import { Navbar, ThemeSwitch } from '$lib/components';
   import '../app.css';
-  import { Toasts } from 'svoast';
 </script>
 
 <svelte:head>
@@ -16,8 +14,4 @@
   class="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"
 />
 
-<Navbar />
-<ThemeSwitch />
 <slot />
-
-<Toasts position="top-center" />

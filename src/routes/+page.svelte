@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { Navbar, ThemeSwitch } from '$lib/components';
+  import { Toasts } from 'svoast';
   import { Intro, About, Projects, Skills, Experience, Contact, Footer } from '$lib/components';
   import type { ActionData } from './$types';
 
@@ -20,6 +22,9 @@
   }
 </script>
 
+<Navbar />
+<ThemeSwitch />
+
 <main class="flex flex-col items-center px-4 pt-28 sm:pt-36">
   <Intro />
   <About />
@@ -29,3 +34,5 @@
   <Contact />
   <Footer />
 </main>
+
+<Toasts position="top-center" />
