@@ -5,20 +5,20 @@
   export let description: string;
 </script>
 
-<div class="flex flex-wrap flex-col bg-white rounded-lg shadow-md p-2 max-h-[28rem]">
+<div class="flex max-h-[28rem] flex-col flex-wrap rounded-lg bg-white p-2 shadow-md">
   <div class="mb-4">
-    <img src={image} alt={title} class="h-56 w-full object-cover rounded-lg" />
+    <img src={image} alt={title} class="h-56 w-full rounded-lg object-cover" />
   </div>
   <div class="mb-2">
     <h3 class="text-lg font-medium text-gray-900">{title}</h3>
     <p class="text-sm text-gray-500">{subtitle}</p>
   </div>
-  <p class="flex flex-1 text-gray-700 line-clamp-3">{description}</p>
-  <div class="flex items-center flex-wrap">
-    <a href="/" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+  <p class="line-clamp-3 flex flex-1 text-gray-700">{description}</p>
+  <div class="flex flex-wrap items-center">
+    <a href="/" class="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0"
       >Learn More
       <svg
-        class="w-4 h-4 ml-2"
+        class="ml-2 h-4 w-4"
         viewBox="0 0 24 24"
         stroke="currentColor"
         stroke-width="2"
@@ -31,10 +31,10 @@
       </svg>
     </a>
     <span
-      class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"
+      class="ml-auto mr-3 inline-flex items-center border-r-2 border-gray-200 py-1 pr-3 text-sm leading-none text-gray-400 md:ml-0 lg:ml-auto"
     >
       <svg
-        class="w-4 h-4 mr-1"
+        class="mr-1 h-4 w-4"
         stroke="currentColor"
         stroke-width="2"
         fill="none"
@@ -46,9 +46,9 @@
         <circle cx="12" cy="12" r="3" />
       </svg>1.2K
     </span>
-    <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+    <span class="inline-flex items-center text-sm leading-none text-gray-400">
       <svg
-        class="w-4 h-4 mr-1"
+        class="mr-1 h-4 w-4"
         stroke="currentColor"
         stroke-width="2"
         fill="none"

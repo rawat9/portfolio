@@ -2,10 +2,10 @@
   export let placeholder: string;
 </script>
 
-<div class="relative">
-  <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+<div class="relative w-full">
+  <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
     <svg
-      class="w-4 h-4 text-slate-400 dark:text-gray-400"
+      class="h-4 w-4 text-slate-400 dark:text-gray-400"
       aria-hidden="true"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
@@ -22,7 +22,7 @@
   </div>
   <input
     type="text"
-    class="flex items-center w-96 text-left space-x-3 px-4 pl-10 h-12 bg-white focus:outline-none shadow-lg rounded-lg text-slate-400 focus:text-slate-500 dark:bg-slate-800 dark:ring-0 dark:text-slate-300 dark:highlight-white/5 dark:hover:bg-slate-700"
+    class="dark:highlight-white/5 borderBlack flex h-10 w-full items-center space-x-3 rounded-lg bg-white px-4 pl-10 text-left text-slate-400 shadow-lg focus:text-slate-500 focus:outline-none dark:bg-slate-800 dark:text-slate-300 dark:ring-0 dark:hover:bg-slate-700"
     {placeholder}
   />
 </div>
