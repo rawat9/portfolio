@@ -17,12 +17,17 @@
     <img
       src={Image}
       alt="Anurag Rawat"
-      class="h-32 w-32 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+      class="h-48 w-48 rounded-full object-cover border-[0.35rem] border-white shadow-2xl"
     />
   </div>
 
   <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl">
-    <p class="font-semibold">I'm Anurag.</p>
+    <div class="my-6 text-2xl font-extrabold">
+      <span
+        class="animate-pulse bg-gradient-to-r from-slate-300 to-slate-700 bg-clip-text text-transparent"
+        >I'm Anurag</span
+      >
+    </div>
     <p class="font-light text-lg">
       Passionate software engineer. I love to build things for the web.
     </p>
@@ -42,7 +47,7 @@
   <div class="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
     <a
       href="#contact"
-      class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:bg-gray-950"
+      class="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full dark:bg-slate-800 hover:bg-gray-950"
     >
       Get in touch
       <Icon
