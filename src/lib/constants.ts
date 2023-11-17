@@ -125,6 +125,14 @@ export const skills = {
     {
       title: 'Java',
       icon: 'java'
+    },
+    {
+      title: 'Kotlin',
+      icon: 'kotlin-icon'
+    },
+    {
+      title: 'Scala',
+      icon: 'scala'
     }
   ]
 } as const;
