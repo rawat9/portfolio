@@ -1,18 +1,18 @@
 <script lang="ts">
   import { Intro, About, Projects, Skills, Experience, Contact, Footer } from '$lib/components';
+  import toast from 'svelte-french-toast';
   import type { ActionData } from './$types';
 
-  import { toast } from 'svoast';
-
-  async function launchToast(type: string, message: string) {
+  async function launchToast(type: 'success' | 'error', message: string) {
     if (type === 'success') {
-      toast.success(message, { duration: 3000, closable: true });
+      toast.success(message);
     } else {
-      toast.error(message, { duration: 3000, closable: true });
+      toast.error(message);
     }
   }
 
   export let form: ActionData;
+
   if (form?.success) {
     launchToast('success', form.detail);
   } else if (form?.error) {

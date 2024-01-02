@@ -17,6 +17,7 @@
         class="h-14 px-4 rounded-lg borderBlack dark:bg-slate-800 dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
         name="senderName"
         type="text"
+        autocomplete="off"
         required
         maxLength={50}
         placeholder="Your name"
