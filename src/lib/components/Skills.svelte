@@ -19,7 +19,12 @@
           <li>
             <Tooltip.Root>
               <Tooltip.Trigger>
-                <Button variant="outline" size="icon" class="rounded-full p-3 w-16 h-16">
+                <Button
+                  variant="outline"
+                  size="icon"
+                  aria-label={language.title}
+                  class="rounded-full p-3 w-16 h-16"
+                >
                   <Icon icon="logos-{language.icon}" class="text-3xl" />
                 </Button>
               </Tooltip.Trigger>

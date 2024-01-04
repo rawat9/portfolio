@@ -16,7 +16,9 @@
           >
             <div class="inline-flex items-center gap-3">
               <h3 class="text-2xl font-semibold">{project.title}</h3>
-              <a href={project.link}><Icon icon="radix-icons:external-link" class="text-2xl" /></a>
+              <a aria-label="Click to view the project" href={project.link}
+                ><Icon icon="radix-icons:external-link" class="text-2xl" /></a
+              >
             </div>
             <p class="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
               {project.description}
