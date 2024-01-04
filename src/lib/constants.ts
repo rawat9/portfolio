@@ -72,6 +72,10 @@ export const skills = {
       icon: 'angular-icon'
     },
     {
+      title: 'NextJS',
+      icon: 'nextjs-icon'
+    },
+    {
       title: 'React',
       icon: 'react'
     },

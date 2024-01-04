@@ -17,7 +17,7 @@
       <ul class="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {#each skills.languages as language}
           <li>
-            <Tooltip.Root>
+            <Tooltip.Root openDelay={0}>
               <Tooltip.Trigger>
                 <Button
                   variant="outline"
@@ -41,7 +41,7 @@
       <ul class="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {#each skills.frameworks as framework}
           <li>
-            <Tooltip.Root>
+            <Tooltip.Root openDelay={0}>
               <Tooltip.Trigger>
                 <Button variant="outline" size="icon" class="rounded-full p-3 w-16 h-16">
                   <Icon icon="logos-{framework.icon}" class="text-3xl" />

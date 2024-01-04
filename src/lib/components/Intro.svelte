@@ -12,7 +12,10 @@
   });
 </script>
 
-<section id="home" class="mb-28 pt-32 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+<section
+  id="home"
+  class="mb-28 pt-16 sm:pt-32 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+>
   <div class="flex items-center justify-center">
     <img
       src={Image}
