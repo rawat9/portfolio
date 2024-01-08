@@ -61,7 +61,7 @@
 
     <a
       class="group bg-white px-7 py-3 flex items-center hover:shadow-md gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
-      href="https://www.anuragrawat.tech/_app/immutable/assets/CV.1341fa34.pdf"
+      href="https://www.anuragrawat.tech/_app/immutable/assets/CV.42lhw-al.pdf"
       target="_blank"
       title="Anurag Rawat"
     >
