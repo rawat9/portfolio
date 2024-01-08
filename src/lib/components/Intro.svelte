@@ -27,7 +27,7 @@
   <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl">
     <div class="my-6 text-2xl font-extrabold">
       <span
-        class="animate-pulse bg-gradient-to-r from-slate-300 to-slate-700 bg-clip-text text-transparent"
+        class="from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
         >I'm Anurag</span
       >
     </div>
