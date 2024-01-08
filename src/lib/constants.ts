@@ -1,4 +1,5 @@
 import tsgeneric from '$lib/assets/ts.png';
+import dashcms from '$lib/assets/dashcms.svg';
 
 export const links = [
   {
@@ -55,6 +56,13 @@ export const experiences = [
 ] as const;
 
 export const projects = [
+  {
+    title: 'DashCMS',
+    description: 'CMS Tool for building personalised dashboards with built-in data integration',
+    tags: ['NextJS', 'TypeScript', 'PostgreSQL', 'Edge Functions', 'TailwindCSS'],
+    link: 'https://dashcms.vercel.app',
+    imageUrl: dashcms
+  },
   {
     title: 'TS Generics',
     description:
