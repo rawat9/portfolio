@@ -60,7 +60,7 @@ export const projects = [
     title: 'DashCMS',
     description: 'CMS Tool for building personalised dashboards with built-in data integration',
     tags: ['NextJS', 'TypeScript', 'PostgreSQL', 'Edge Functions', 'TailwindCSS'],
-    link: 'https://dashcms.vercel.app',
+    link: 'https://dashcms.studio/',
     imageUrl: dashcms
   },
   {
