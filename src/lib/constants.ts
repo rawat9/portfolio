@@ -1,5 +1,6 @@
 import tsgeneric from '$lib/assets/ts.png';
 import dashcms from '$lib/assets/dashcms.svg';
+import pms from '$lib/assets/pms.png';
 
 export const links = [
   {
@@ -64,9 +65,17 @@ export const projects = [
     imageUrl: dashcms
   },
   {
+    title: 'Project Management System',
+    description:
+      'Kanban board for managing projects and tasks. Directed graph for task dependencies. Supports drag and drop with instant updates.',
+    tags: ['Kotlin', 'Spring Boot', 'Vaadin', 'Web Component'],
+    link: 'https://github.com/rawat9/project-management-system',
+    imageUrl: pms
+  },
+  {
     title: 'TS Generics',
     description:
-      'Repository of type challenges to help me understand the concept of Generics in TypeScript.',
+      'Repository of type challenges to understand the concept of Generics in TypeScript. Yes, I love Generics<T>',
     tags: ['TypeScript'],
     link: 'https://rawat9.github.io/ts-generics/',
     imageUrl: tsgeneric
@@ -90,6 +99,10 @@ export const skills = {
     {
       title: 'Svelte',
       icon: 'svelte-icon'
+    },
+    {
+      title: 'TailwindCSS',
+      icon: 'tailwindcss-icon'
     },
     {
       title: 'RxJS',

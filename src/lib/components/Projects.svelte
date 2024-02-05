@@ -9,7 +9,7 @@
     {#each projects as project}
       <div class="group mb-3 sm:mb-8 last:mb-0">
         <section
-          class="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
+          class="bg-gray-100 max-w-[48rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20"
         >
           <div
             class="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]"
@@ -26,7 +26,7 @@
             <ul class="flex flex-wrap mt-4 gap-2 sm:mt-auto">
               {#each project.tags as tag}
                 <li
-                  class="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                  class="px-3 py-1 text-black border shadow-sm text-xs uppercase tracking-wider dark:bg-gray-900 bg-white rounded-full dark:text-white/70"
                 >
                   {tag}
                 </li>
