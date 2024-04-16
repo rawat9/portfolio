@@ -58,10 +58,10 @@ export const experiences = [
 
 export const projects = [
   {
-    title: 'DashCMS',
+    title: 'Dashgen',
     description: 'CMS Tool for building personalised dashboards with built-in data integration',
     tags: ['NextJS', 'TypeScript', 'PostgreSQL', 'Edge Functions', 'TailwindCSS'],
-    link: 'https://dashcms.studio/',
+    link: 'https://dashgen.studio/',
     imageUrl: dashcms
   },
   {
