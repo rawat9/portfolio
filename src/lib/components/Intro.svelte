@@ -39,6 +39,7 @@
         Interested in
         <Typewriter mode="loop">
           <span class="font-mono">software engineering</span>
+          <span class="font-mono">react server components</span>
           <span class="font-mono">functional programming</span>
           <span class="font-mono">full stack web dev</span>
           <span class="font-mono">music 🎵</span>
