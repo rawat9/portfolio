@@ -55,10 +55,13 @@
   },
   "type": "module",
   "dependencies": {
+    "@fontsource/geist-sans": "^5.0.3",
     "@fontsource/inter": "5.0.17",
+    "@types/reveal.js": "^5.0.3",
     "bits-ui": "0.13.0",
     "clsx": "2.1.0",
     "nodemailer": "6.9.9",
+    "reveal.js": "^5.1.0",
     "svelte-email": "0.0.4",
     "svelte-french-toast": "1.2.0",
     "tailwind-merge": "2.2.0",
