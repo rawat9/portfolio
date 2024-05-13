@@ -14,7 +14,7 @@
 
 <section
   id="home"
-  class="mb-28 pt-16 sm:pt-32 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+  class="mb-24 pt-16 sm:pt-32 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
 >
   <div class="flex items-center justify-center">
     <img
@@ -25,9 +25,9 @@
   </div>
 
   <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl">
-    <div class="my-6 text-2xl font-extrabold">
+    <div class="my-6 text-3xl font-bold">
       <span
-        class="from-purple-600 via-pink-600 to-blue-600 bg-gradient-to-r bg-clip-text text-transparent"
+        class="bg-gradient-to-b from-gray-50 to-gray-500 bg-clip-text font-sans text-transparent"
         >I'm Anurag</span
       >
     </div>
