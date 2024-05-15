@@ -32,15 +32,17 @@ export const links = [
 export const experiences = [
   {
     title: 'Software Engineer Intern',
-    company: 'GE Digital',
+    company: 'GE Vernova',
     location: 'Cambridge UK',
     description: [
       'Worked as part of the frontend team on a full-stack geospatial application using Angular, RxDB and NestJS',
       'Collaborated with a developer to implement a data-access abstraction layer using the <a class="underline underline-offset-4 font-semibold" target="_blank" href="https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#the-repository-pattern">Repository Design Pattern</a>',
       'Setup and configured Storybook for reusable Angular components'
     ],
-    icon: 'fluent-mdl2:work',
-    date: '2022 - 2023'
+    date: '2022 - 2023',
+    imageUrl:
+      'https://s3-us-west-1.amazonaws.com/upload.comparably.com/38791/companies/38791/logo_1693406057548.jpg',
+    hoverCardContent: 'Accelerate the path to more reliable, affordable, and sustainable energy.'
   },
   {
     title: 'Coding Mentor',
@@ -51,8 +53,11 @@ export const experiences = [
       'Maintain a fun learning environment.',
       "Developed a dynamic website for tracking student's progress with an analytical dashboard using Django and PostgreSQL"
     ],
-    icon: 'fluent-mdl2:work',
-    date: '2021 - 2022'
+    date: '2021 - 2022',
+    imageUrl:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrkw6aDV7Gch7G8gaBVUhGZtwd28lL-03kKF1DxCDvvw&s',
+    hoverCardContent:
+      'Offers an enriching coding experience for kids, fostering the development of valuable coding skills through a game-based curriculum.'
   }
 ] as const;
 

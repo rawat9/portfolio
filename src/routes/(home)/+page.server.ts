@@ -1,4 +1,4 @@
-import type { Actions } from './$types';
+import type { Actions } from '../$types';
 import nodemailer from 'nodemailer';
 
 import { render } from 'svelte-email';

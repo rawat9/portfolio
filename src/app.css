@@ -1,4 +1,4 @@
-@import '@fontsource/inter';
+@import '@fontsource/geist-sans';
 
 @tailwind base;
 @tailwind components;
@@ -92,5 +92,5 @@ html.dark {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Geist Sans', sans-serif;
 }
