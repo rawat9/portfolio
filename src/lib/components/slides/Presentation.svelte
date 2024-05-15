@@ -2,11 +2,18 @@
   import Slide from './Slide.svelte';
 </script>
 
-<Slide>Horizontal Slide</Slide>
+<Slide>
+  <div class="text-sm text-left">
+    <h4>Anurag Rawat</h4>
+    <ul>
+      <li>Studied Software Engineering</li>
+      <li>Software Engineer at <a href="https://www.gevernova.com/">GE Vernova</a></li>
+    </ul>
+  </div>
+</Slide>
 
 <Slide>
-  <Slide>Vertical Slide 1</Slide>
-  <Slide>Vertical Slide 2</Slide>
+  <div></div>
 </Slide>
 
 <Slide animate>
