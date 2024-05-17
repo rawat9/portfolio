@@ -20,7 +20,7 @@
   }
 </script>
 
-<main class="flex flex-col items-center px-4 pt-28 sm:pt-36">
+<main class="flex flex-col items-center px-4 pt-40 sm:pt-60">
   <Intro />
   <About />
   <Projects />
