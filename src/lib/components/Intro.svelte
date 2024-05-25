@@ -24,26 +24,27 @@
     />
   </div>
 
-  <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl">
+  <h1 class="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl antialiased">
     <div class="my-6 text-3xl font-bold">
       <span
         class="bg-gradient-to-b from-gray-50 to-gray-500 bg-clip-text font-sans text-transparent"
         >I'm Anurag</span
       >
     </div>
-    <p class="font-light text-lg">
-      Passionate software engineer. I love to build things for the web.
-    </p>
+    <p class="py-2 text-lg font-medium">Software Engineer at GE Vernova</p>
     {#if isVisible}
       <p class="font-light text-lg">
         Interested in
-        <Typewriter mode="loop">
-          <span class="font-mono">software engineering</span>
-          <span class="font-mono">react server components</span>
-          <span class="font-mono">functional programming</span>
-          <span class="font-mono">full stack web dev</span>
-          <span class="font-mono">music 🎵</span>
-        </Typewriter>
+        <span class="font-mono">
+          <Typewriter mode="loop">
+            <span>Golang</span>
+            <span>Software Engineering</span>
+            <span>React Server Components</span>
+            <span>Functional Programming</span>
+            <span>Full stack web dev</span>
+            <span>Music 🎵</span>
+          </Typewriter>
+        </span>
       </p>
     {/if}
   </h1>

@@ -1,6 +1,5 @@
 <script>
   import { experiences } from '$lib/constants';
-  import Icon from '@iconify/svelte';
   import * as HoverCard from '$lib/components/ui/hover-card';
 </script>
 

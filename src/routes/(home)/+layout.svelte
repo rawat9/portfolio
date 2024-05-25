@@ -5,7 +5,7 @@
 
 <svelte:head>
   <title>Anurag Rawat | Software Engineer</title>
-  <meta name="description" content="Software Engineer portfolio" />
+  <meta name="description" content="Software Engineer Portfolio" />
 </svelte:head>
 
 <Navbar />

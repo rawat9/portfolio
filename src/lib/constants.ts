@@ -31,6 +31,19 @@ export const links = [
 
 export const experiences = [
   {
+    title: 'Software Engineer',
+    company: 'GE Vernova',
+    location: 'Cambridge UK',
+    description: [
+      'Working on an end-to-end geospatial application using Angular & TypeScript',
+      'Writing unit tests using Jest and e2e-tests using Testcafe'
+    ],
+    date: 'May 2024 - Present',
+    imageUrl:
+      'https://s3-us-west-1.amazonaws.com/upload.comparably.com/38791/companies/38791/logo_1693406057548.jpg',
+    hoverCardContent: 'Accelerate the path to more reliable, affordable, and sustainable energy.'
+  },
+  {
     title: 'Software Engineer Intern',
     company: 'GE Vernova',
     location: 'Cambridge UK',
@@ -39,7 +52,7 @@ export const experiences = [
       'Collaborated with a developer to implement a data-access abstraction layer using the <a class="underline underline-offset-4 font-semibold" target="_blank" href="https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design#the-repository-pattern">Repository Design Pattern</a>',
       'Setup and configured Storybook for reusable Angular components'
     ],
-    date: '2022 - 2023',
+    date: 'June 2022 - August 2023',
     imageUrl:
       'https://s3-us-west-1.amazonaws.com/upload.comparably.com/38791/companies/38791/logo_1693406057548.jpg',
     hoverCardContent: 'Accelerate the path to more reliable, affordable, and sustainable energy.'
@@ -53,7 +66,7 @@ export const experiences = [
       'Maintain a fun learning environment.',
       "Developed a dynamic website for tracking student's progress with an analytical dashboard using Django and PostgreSQL"
     ],
-    date: '2021 - 2022',
+    date: 'June 2021 - June 2022',
     imageUrl:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrkw6aDV7Gch7G8gaBVUhGZtwd28lL-03kKF1DxCDvvw&s',
     hoverCardContent:
