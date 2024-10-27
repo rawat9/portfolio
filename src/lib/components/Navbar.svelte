@@ -35,7 +35,8 @@
               </a>
 
               {#if link.name === activeSection}
-                <span class="bg-gray-200 rounded-full absolute inset-0 -z-10 dark:bg-gray-800" />
+                <span class="bg-gray-200 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
+                ></span>
               {/if}
             </li>
           {/each}

@@ -63,7 +63,7 @@
 
     <a
       class="group bg-white px-5 py-2 flex items-center hover:shadow-md gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
-      href="https://www.anuragrawat.tech/_app/immutable/assets/CV.CaCXc0Dy.pdf"
+      href="https://anuragsrawat.vercel.app/_app/immutable/assets/CV.CaCXc0Dy.pdf"
       target="_blank"
       title="Anurag Rawat"
     >

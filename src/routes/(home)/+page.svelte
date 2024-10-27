@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Intro, About, Projects, Skills, Experience, Contact, Footer } from '$lib/components';
-  import toast from 'svelte-french-toast';
+  import { toast } from 'svelte-sonner';
   import type { ActionData } from './$types';
 
   async function launchToast(type: 'success' | 'error', message: string) {

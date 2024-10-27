@@ -1,6 +1,6 @@
 <script>
   import { Navbar, ThemeSwitch } from '$lib/components';
-  import { Toaster } from 'svelte-french-toast';
+  import { Toaster } from 'svelte-sonner';
 </script>
 
 <svelte:head>

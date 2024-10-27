@@ -32,7 +32,7 @@
     <Container>
       <Section>
         <Img
-          src="https://www.anuragrawat.tech/_app/immutable/assets/Image.14e10013.png"
+          src="https://anuragsrawat.vercel.app/_app/immutable/assets/Image.14e10013.png"
           width="96"
           height="96"
           alt="author"
@@ -46,5 +46,5 @@
     </Container>
   </Body>
   <Hr />
-  <Button href="https://anuragrawat.tech/">Visit Website</Button>
+  <Button href="https://anuragsrawat.vercel.app/">Visit Website</Button>
 </Html>
